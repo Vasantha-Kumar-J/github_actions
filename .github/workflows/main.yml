@@ -1,0 +1,25 @@
+name: PR
+
+on:
+  pull_request:
+    branches:
+      - main
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    env:
+      PYTHON_VERSION: 3.9
+    steps:
+      - name: print hello world
+        run: echo hello world
+      - name: print the name
+        run: echo Vasanth
+  bye-world:
+    runs-on: ubuntu-latest
+    env:
+      PYTHON_VERSION: 3.9
+    steps:
+      - name: print bye world
+        run: echo bye world
+      - name: print the name
+        run: echo Vasanth
