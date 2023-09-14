@@ -7,8 +7,6 @@
       "sslPort": 44333
     }
   },
-
-  
   "profiles": {
     "FirstCoreWebApplication": {
       "commandName": "Project",
